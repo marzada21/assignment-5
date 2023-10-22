@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/1a8f82603e.js" crossorigin="anonymous"></script>
+  <title>FlexFit</title>
+</head>
+<body class="background-img">
+
+<!-- Navbar -->
+<nav>
+  <ul>
+    <li><a href="index.html">FlexFit</a></li>
+    <li><a href="index.html">About</a></li>
+    <li><a href="#memberships">Membership</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+    <li><a href="sign-in.html">Sign-In</a></li>
+    <li><a href="sign-out.html">Sign-Out</a></li>
+  </ul>
+</nav>
+
+<!-- About -->
+
+<div class="about" id="about">
+  <div>
+    <img src="static/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg" alt="" class="ab-img">
+  </div>
+  <div>
+    <h1 class="about-inspo-quote">Elevate your Strength and Wellness</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore laudantium neque at expedita, officiis a in laborum est, tempore doloribus repellendus maiores velit. Facilis quod vel, excepturi incidunt quis rem illo unde similique illum architecto molestias quam quo atque! Voluptate.</p>
+  </div>
+</div>
+
+<!-- Membership -->
+
+<div class="memberships" id="memberships">
+  <div class="pricing">
+    <h2>Ready to take the Jump?</h2>
+    <table>
+      <tr>
+        <th>Lifestyle Enthusiast $20 /month or $200 /year</th>
+        <th>Wellness Warrior $30 /month or $350 /year </th>
+        <th>Peak Performance Pro $50 or $400 /year</th>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-heart-pulse"></i> Lorem ipsum dolor sit amet consectetur.</td>
+        <td><i class="fa-solid fa-dumbbell"></i> Lorem ipsum dolor sit amet.</td>
+        <td><i class="fa-solid fa-medal"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-heart-pulse"></i> Lorem ipsum dolor sit amet consectetur.</td>
+        <td><i class="fa-solid fa-dumbbell"></i> Lorem ipsum dolor sit amet.</td>
+        <td><i class="fa-solid fa-medal"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-heart-pulse"></i> Lorem ipsum dolor sit amet consectetur.</td>
+        <td><i class="fa-solid fa-dumbbell"></i> Lorem ipsum dolor sit amet.</td>
+        <td><i class="fa-solid fa-medal"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-heart-pulse"></i> Lorem ipsum dolor sit amet consectetur.</td>
+        <td><i class="fa-solid fa-dumbbell"></i> Lorem ipsum dolor sit amet.</td>
+        <td><i class="fa-solid fa-medal"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- Sign-Up -->
+
+<div class="sign-up">
+  <form class="form-container">
+    <div class="form-row">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name">
+    </div>
+    <div class="form-row">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="form-row">
+      <label for="birthday">Birthday:</label>
+      <input type="date" name="birthday" id="birthday">
+    </div>
+    <div class="form-row">
+      <label for="membership-type">Membership:</label>
+      <select name="membership-type" id="membership-type">
+        <option value="lifestyle-enthusiast">Lifestyle Enthusiast</option>
+        <option value="wellness-warrior">Wellness Warrior</option>
+        <option value="peak-performance-pro">Peak Performance Pro</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="reason-to-join">What made you want to take your first steps to physical wellness?</label>
+      <textarea name="reason-to-join" id="reason-to-join" cols="30" rows="5"></textarea>
+    </div>
+    <div class="submit-container">
+      <input type="submit" value="Next Steps" class="submit">
+    </div>
+    <p class="form-info">*Payment and Billing on the next page*</p>
+    <!-- Not on next page i do not know how to do that yet -->
+  </form>
+</div>
+
+<!-- Inspiration -->
+
+<div class="inspo" id="contact">
+  <div class="inspo-container">
+    <h1 class="inspo-quote-1">Your body can stand almost anything. It's your mind you have to convince.</h1>
+    <img src="static/aaron-brogden-9y4MaTz2Js0-unsplash.jpg" alt="" class="inspo-pic">
+    <img src="static/spencer-davis-0ShTs8iPY28-unsplash.jpg" alt="" class="inspo-pic">
+    <img src="static/akram-huseyn-V-SkkqKbt7g-unsplash.jpg" alt="" class="inspo-pic">
+    <img src="static/anastase-maragos-DHsdSeCpjRU-unsplash.jpg" alt="" class="inspo-pic">
+    <h1 class="inspo-quote-2">The only bad workout is the one that didn't happen.</h1>
+  </div>
+</div>
+
+<!-- Contact -->
+
+<div class="footer">
+  <div class="footer-container">
+    <h3 class="socials">Follow Us on our Socials</h3>
+    <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+    <i class="fa-brands fa-tiktok fa-xl" style="color: #ffffff;"></i>
+    <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+    <h3 class="contact-us">Want to Learn more?</h3>
+    <p class="contact-info">(123) 456-7890</p>
+    <p class="contact-info">flexfit@fakegym.com</p>
+    <p class="contact-info">1234 Not Real Ave. Fantasy Town, FS 12345</p>
+    <p class="contact-info">&copy; 2023 FlexFit</p>
+  </div>
+</div>
+  
+</body>
+</html>
